@@ -24,7 +24,7 @@ jobs:
         run: |
           git config --global user.email nzheng@student.ubc.ca
           git config --global user.name nicolas-source
-          git remote set-url origin https://github.com/nicolas-source/nextjs_githubpages.git
+#          git remote set-url origin https://github.com/nicolas-source/nextjs_githubpages.git
           npm i
           npm run build
           npm run deploy
