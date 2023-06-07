@@ -25,6 +25,9 @@ jobs:
           npm i
           npm run build
           npm run deploy
+          git config --global user.email $MY_EMAIL
+          git config --global user.name $MY_NAME
+          git remote set-url origin https://github.com/nicolas-source/nextjs_githubpages.git
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
